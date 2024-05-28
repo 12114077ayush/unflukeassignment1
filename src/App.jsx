@@ -1,8 +1,8 @@
 
 import { BrowserRouter } from 'react-router-dom'
 import './App.css'
-import Sidebar from './assets/components/sidebar/Sidebar'
-import Content from './assets/components/content/Content'
+import Sidebar from './components/sidebar/Sidebar'
+import Content from './components/content/Content'
 
 function App() {
 
