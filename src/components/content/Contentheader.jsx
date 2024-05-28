@@ -12,9 +12,9 @@ function Contentheader() {
                 </span>
                 <div className="icons mr-3">
                     <ul className='flex gap-4 items-center'>
-                        <li className='dropdown flex mr-2'><img src="/public/bell-icon.png" className='w-[25px] relative' alt="" /><ArrowDropDownIcon className='absolute right-[8.5rem] top-16' /></li>
-                        <li className='flex items-center gap-1'><img src="/public/coin.png" className='w-[25px] ' alt="" /><button>0</button></li>
-                        <li className='flex items-center'><img src="/public/profile.png" className='w-[25px] relative' alt="" />
+                        <li className='dropdown flex mr-2'><img src={"/images/bell-icon.png"} className='w-[25px] relative' alt="" /><ArrowDropDownIcon className='absolute right-[8.5rem] top-16' /></li>
+                        <li className='flex items-center gap-1'><img src={"/public/images/coin.png"} className='w-[25px] ' alt="" /><button>0</button></li>
+                        <li className='flex items-center'><img src={"/public/images/profile.png"} className='w-[25px] relative' alt="" />
                             <ArrowDropDownIcon className='absolute right-7 top-16' />   </li>
                     </ul>
                 </div>

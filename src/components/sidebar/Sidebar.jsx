@@ -46,7 +46,7 @@ function Sidebar() {
     return (
         <motion.div className="min-h-screen">
             <motion.div className="logo">
-                <motion.img src="/public/bell-icon.jpg" className="w-48 ml-16 pt-[22px] mb-[2.25rem] cursor-pointer" alt="" initial={{ opacity: 0, scale: 0.6 }} animate={{ opacity: 1, transition: { duration: 1.1 }, scale: 1 }} />
+                <motion.img src={"/images/logodark.png"} className="w-48 ml-16 pt-[22px] mb-[2.25rem] cursor-pointer" alt="" initial={{ opacity: 1, scale: 0.6 }} animate={{ opacity: 1, transition: { duration: 1.1 }, scale: 1 }} />
             </motion.div>
             <motion.div>
                 <motion.ul className="m-6 list-disc pl-[25px]">
